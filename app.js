@@ -48,21 +48,23 @@
 // }
 
 
-function son(n){
-    let i = 1
-    while(i <= n){
-        i = i * 3
-        if(n > 0){
-            i == n * 3
-            return ` 3 bu son ning darajasi`
-        }else{
-            return `3 bu son ning darajasi emas`
-        }
-    }
-    console.log(i);
-    return `natija tayyor`
-}
-console.log(son(90));
+// {4-misol
+
+// function son(n){
+//     let i = 1
+//     while(i <= n){
+//         i = i * 3
+//         if(n > 0){
+//             i == n * 3
+//             return ` 3 bu son ning darajasi`
+//         }else{
+//             return `3 bu son ning darajasi emas`
+//         }
+//     }
+//     console.log(i);
+//     return `natija tayyor`
+// }
+// console.log(son(90));
 
 // }
 
