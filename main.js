@@ -130,16 +130,18 @@
 
 
 // {4-misol do
-function son(n){
-    let i = n
-    do{
-        i--
-        if (i % 2 !== 0) {
-            console.log(i);
-        }
-    }while(i > 0)
-    return `${n} dagi toq sonlar`
-}
-console.log(son(15000));
+
+// function son(n){
+//     let i = n
+//     do{
+//         i--
+//         if (i % 2 !== 0) {
+//             console.log(i);
+//         }
+//     }while(i > 0)
+//     return `${n} dagi toq sonlar`
+// }
+// console.log(son(15000));
+
 // 
 // }
