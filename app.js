@@ -64,7 +64,8 @@
 //     console.log(i);
 //     return `natija tayyor`
 // }
-// console.log(son(90));
+// console.log(son(98));
+
 
 // }
 
