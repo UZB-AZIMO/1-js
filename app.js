@@ -1,27 +1,32 @@
 // // {1-MISOL
  
-// let a = 15
-// let b = 4
-// let i = 0
-// while (a>b) {
-//     a-=b
-//     i++
+// function son(a,b){
+//     let = 0
+//     while(a >= b){
+//         a = a - b
+//     }
+//     console.log(a);
+//     return `natija tayyor`
 // }
-// console.log (i);
+// console.log(son(18, 5));
+
 
 // // }
 
 
 // {2-MISOL
 
-// let a = 12
-// let b = 5
-// let i = 0
-// while (a > b){
-//     a-=b
-//     ++i
+// function son(a,b){
+//     let i = 0
+//     while(a >= b){
+//         a -= b
+//         i++
+//     }
+//     console.log(i);
+//     return `natija tayyor`
 // }
-// console.log (i);
+// console.log(son(21, 3));
+
 
 // }
 
@@ -29,32 +34,35 @@
 
 // {3-misol
 
-//     let n = 12 
-//     let k = 5
-//     let i = 0
-//     let b = 0
-//     while (n >= k){
-//             n-=k
-//             ++i
-//         }
-
-// console.log(i);
-
-// console.log(b);
+    // function son (n, k){
+    //     let i = 0
+    //     while(n >= k){
+    //         n = n - k
+    //         i++
+    //     }
+    //     console.log(`Butun son: ${i}  qoldiq son: ${n}`);
+    //     return `natija tayyor`
+    // }
+    // console.log(son(77,13));
 
 // }
 
 
-// {4-misol
-
-// let n = 20
-// let i=0
-// while (n>=0) {
-//     n-=3
-//     ++i
-// }
-
-// console.log(i);
+function son(n){
+    let i = 1
+    while(i <= n){
+        i = i * 3
+        if(n > 0){
+            i == n * 3
+            return ` 3 bu son ning darajasi`
+        }else{
+            return `3 bu son ning darajasi emas`
+        }
+    }
+    console.log(i);
+    return `natija tayyor`
+}
+console.log(son(90));
 
 // }
 
